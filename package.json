@@ -26,15 +26,22 @@
   },
   "homepage": "https://github.com/SummerCash/summercash.js#readme",
   "devDependencies": {
+    "@types/jest": "^23.3.11",
     "eslint": "^5.11.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.1",
+    "jest": "^23.6.0",
     "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
     "tslint": "^5.12.0",
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.2.2",
     "typescript-eslint-parser": "^21.0.2"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.16.4"
   }
 }
