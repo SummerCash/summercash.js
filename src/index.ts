@@ -10,6 +10,7 @@ export const SourceAPI = (provider: string) => {
 
 // loadProtobuf - load protobuf file
 const loadProtobuf = (file: string|string[]) => {
+    console.log("test");
     load(file, (err: Error|null, root?: protobuf.Root) => { // Load protobuf file
         if (err) { // Check for error
             throw err; // Throw error
@@ -18,3 +19,5 @@ const loadProtobuf = (file: string|string[]) => {
         console.log(root); // Log root
     });
 };
+
+export default loadProtobuf("./proto/chain.proto"); // Default
