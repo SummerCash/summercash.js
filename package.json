@@ -28,12 +28,13 @@
   "homepage": "https://github.com/SummerCash/summercash.js#readme",
   "devDependencies": {
     "@types/jest": "^23.3.11",
+    "@types/request-promise-native": "^1.0.15",
     "eslint": "^5.11.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.12.1",
-    "jest": "^23.6.0",
+    "jest": "^24.5.0",
     "prettier": "^1.15.3",
     "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
@@ -46,6 +47,8 @@
     "body-parser": "^1.18.3",
     "debug": "^4.1.1",
     "express": "^4.16.4",
-    "protobufjs": "^6.8.8"
+    "protobufjs": "^6.8.8",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
   }
 }
