@@ -1,12 +1,12 @@
 import * as request from 'request-promise-native'; // Import requests
 import { Base64 } from 'js-base64';
 
-// Class TransactionAPI defines a SummerCash transaction API instance.
-export class TransactionAPI {
+// Class TransactionsAPI defines a SummerCash transaction API instance.
+export class TransactionsAPI {
   public provider: string; // Init provider buffer
   private serviceLookup: string; // Init lookup buffer
 
-  // Initializes a new AccountsAPI instance with a given provider.
+  // Initializes a new TransactionsAPI instance with a given provider.
   public constructor(provider: string) {
     this.provider = provider; // Set provider
     this.serviceLookup = `${provider}/twirp/transaction.Transaction`; // Set service lookup
