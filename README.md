@@ -1,2 +1,2 @@
 # summercash.js
-Node.js go-summercash API wrapper (deprecated).
+Node.js go-summercash API wrapper.
